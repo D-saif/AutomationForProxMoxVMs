@@ -1,0 +1,46 @@
+[
+  {
+     "tmpid":"8000",
+     "vmid":"8008",
+     "name":"ubuntuSaifTestVM",
+     "ciuser":"saif8008",
+     "cipassword":"ubuntupwd",
+     "nameserver":"8.8.8.8",
+     "gw":"192.168.1.1",
+     "ip":"192.168.1.8/24",
+     "sshkey":"CloudInitSshPubKeys/vm8008_ssh.pub",
+     "model":"virtio",
+     "bridge":"vmbr1", 
+     "keyboard":"fr"
+   },
+
+   {
+     "tmpid":"8000",
+     "vmid":"8009",
+     "name":"ubuntuSaifTestVM1",
+     "ciuser":"saif8009",
+     "cipassword":"ubuntupwd",
+     "nameserver":"8.8.8.8",
+     "gw":"192.168.1.1",
+     "ip":"192.168.1.9/24",
+     "sshkey":"CloudInitSshPubKeys/vm8008_ssh.pub",
+     "model":"virtio",
+     "bridge":"vmbr1", 
+     "keyboard":"fr"
+   },
+
+   {
+    "tmpid":"8000",
+    "vmid":"8010",
+    "name":"ubuntuSaifTestVM2",
+    "ciuser":"saif8010",
+    "cipassword":"ubuntupwd",
+    "nameserver":"8.8.8.8",
+    "gw":"192.168.1.1",
+    "ip":"192.168.1.10/24",
+    "sshkey":"CloudInitSshPubKeys/vm8008_ssh.pub",
+    "model":"virtio",
+    "bridge":"vmbr1", 
+    "keyboard":"fr"
+  }
+]
