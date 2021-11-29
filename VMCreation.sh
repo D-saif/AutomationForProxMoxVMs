@@ -75,7 +75,7 @@ do
         # in arr1[i] command 1 for the ith vm will be stored
         arr1+=("qm clone $tmpid $vmid --name $name") 
         # in arr2[i] command 2 for the ith vm will be stored       
-        arr2+=("qm set $vmid --ciuser $ciuser --cipassword $cipassword --nameserver $nameserver --ipconfig0 gw=$gw,ip=$ip/24 --sshkey $sshkey --net0 model=$model,bridge=$bridge --keyboard $keybrLay")
+        arr2+=("qm set $vmid --ciuser $ciuser --cipassword $cipassword --nameserver $nameserver --ipconfig0 gw=$gw,ip=$ip --sshkey $sshkey --net0 model=$model,bridge=$bridge --keyboard $keybrLay")
 
 	echo "======="
 
