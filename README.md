@@ -27,6 +27,7 @@ We can automate this task with a simple bash script, that automatically creates 
 Deploying a template (Creating a VM from a template) on Proxmox server can be done in two ways:
 
 - **From Gui:**
+
     ![](https://e.top4top.io/p_2166gltnp1.png)
     
 - **With command line we can create a VM with the following command** :
